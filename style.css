@@ -1,0 +1,159 @@
+/* Global Css */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    body{
+        background-color: floralwhite;
+    }
+    .global-btn{
+        height: 33px;
+        width: 99px;
+        background-color: black;
+        color: aliceblue;
+    }
+    .global-section{
+        padding: 3rem 0;
+        margin: 0 60px;
+    }
+
+    .global-hading{
+        font-size: 33px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .global-hading-p{
+        color: #7B7B7B;
+        text-align: center;
+    }
+    /* Thes is header */
+    header{
+        background-color: black;
+        color: beige;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4rem;
+        
+    }
+    ul li{
+        display: inline;
+        margin-right: 15px;
+        text-decoration: none;
+        padding: 2px;
+    }
+    .conten{
+        margin: 2rem;
+    }
+
+/* Frist Section */
+.first-section{
+    background-image: url(eisamay-77109557.webp);
+    border-image-width: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 13rem 0;
+    text-align: center;}
+
+.first-section p{
+    font-size: 2rem;
+}
+
+.first-section h2{
+    font-size: 45px;
+    margin: 13px 0;
+}
+
+/* About as section */
+
+.About-mine-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem;
+}
+
+.About-sub-div2{
+    width: 500px;
+    padding: 2rem 2rem;
+}
+
+.About-sub-div2 h2{
+    font-size: 33px;
+
+}
+
+.About-sub-div2 p{
+    color: #7B7B7B;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+/* This is Service Area */
+
+.grid-containar{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+}
+
+.grid-single-item h2{
+    margin: 10px;
+}
+
+.grid-single-item p{
+    color: #7B7B7B;
+}
+
+.custome-icon-size{
+    font-size: 45px;
+}
+
+/* Work section */
+
+.photo-size{
+    width: 250px;
+}
+
+/* Testimonial Section */
+.testimonial-p{
+    color: black !important;
+    margin-top:10px ;
+}
+
+/* Contect section */
+.Contact-hading{
+    font-size: 55px;
+    text-align: center;
+    margin-bottom:0px' 
+}
+
+form{
+    margin-left: 370px;
+    margin-top: 30px;
+}
+form input{
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Thes is footer tath */
+footer{
+    background-color: black;
+    color: aliceblue;
+    height: 4rem;
+}
+
+footer p{
+    text-align: center;
+    padding: 25px;
+}
